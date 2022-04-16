@@ -1,2 +1,1 @@
-# activitypub-log
-ActivityPub Log
+# ActivityPub Log
