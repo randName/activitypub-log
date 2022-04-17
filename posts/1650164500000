@@ -1,0 +1,7 @@
+{
+ "type": "Note",
+ "published": "2022-04-17T03:01:40Z",
+ "to": ["https://www.w3.org/ns/activitystreams#Public"],
+ "content": "<p>hello world</p>",
+ "id": "https://randna.me/p/1650164500000"
+}
