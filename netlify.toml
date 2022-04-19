@@ -1,0 +1,24 @@
+[build]
+  publish = "dist/"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET"
+    Access-Control-Allow-Headers = "Cache-Control,DNT,User-Agent"
+
+[[headers]]
+  for = "/o*"
+  [headers.values]
+    Content-Type = "application/activity+json"
+
+[[headers]]
+  for = "/f*"
+  [headers.values]
+    Content-Type = "application/activity+json"
+
+[[headers]]
+  for = "/a/*"
+  [headers.values]
+    Content-Type = "application/activity+json"
